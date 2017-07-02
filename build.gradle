@@ -1,0 +1,18 @@
+plugins {
+    id 'org.jetbrains.intellij' version '0.2.11'
+    id 'org.jetbrains.kotlin.jvm' version '1.1.2-5'
+}
+
+intellij {
+    pluginName 'Kotlin Solution'
+    version 'IC-2017.1.4'
+    plugins 'Kotlin'
+}
+
+group 'kotlin-solution'
+version '0.0.2-beta'
+
+dependencies {
+    testRuntime 'org.jetbrains.kotlin:kotlin-reflect'
+    testRuntime 'org.jetbrains.kotlin:kotlin-runtime'
+}

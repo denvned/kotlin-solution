@@ -1,0 +1,10 @@
+<idea-plugin>
+  <id>kotlin-solution</id>
+  <name>Kotlin Solution</name>
+  <depends>org.jetbrains.kotlin</depends>
+  <actions>
+    <action id="CopySolutionAction" class="CopySolutionAction" text="Copy Solution">
+      <add-to-group group-id="BuildMenu" anchor="first"/>
+    </action>
+  </actions>
+</idea-plugin>
